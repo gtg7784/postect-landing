@@ -33,8 +33,8 @@ module.exports = (api) => {
           alias: {
             "@src": "./src",
             "@components": "./src/components",
-            "@pages": "./src/components/pages",
-            "@store": "./src/store",
+            "@pages": "./src/pages",
+            "@stores": "./src/stores",
             "@reducers": "./src/store/reducers",
             "@actions": "./src/store/actions",
             "@util": "./src/util",

@@ -65,6 +65,7 @@ module.exports = {
     ],
     'react/prop-types': 'off',
     'max-len': ["error", 100],
+    "react/jsx-props-no-spreading": "off"
   },
 
   overrides: [

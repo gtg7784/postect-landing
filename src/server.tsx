@@ -8,7 +8,7 @@ import { Provider } from "react-redux";
 import { createStore } from "redux";
 import { renderToString } from "react-dom/server";
 
-import reducers from "./store/reducers";
+import reducers from "./stores/reducers";
 
 const app = express();
 
