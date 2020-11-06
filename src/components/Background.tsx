@@ -165,8 +165,7 @@ const Background: React.FC<Props> = () => (
           width={300}
           height={411}
           top={245}
-          right="50%"
-          left="50%"
+          right={200}
           src={MAIN_ILLUST_01}
         />
         <Illust
