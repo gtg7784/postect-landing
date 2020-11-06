@@ -7,16 +7,20 @@ const NotFound = loadable(
   () => import(/* webpackChunkName: "NotFound" */ "./pages/NotFound")
 );
 
+const Home = loadable(() => import("./pages/Home"));
+
 export default function App() {
   return (
-    <div>
-      <Helmet>
-        <title>App</title>
-      </Helmet>
-      <Switch>
-        {/* <Route exact path="/" render={() => <Home />} /> */}
-        <Route render={() => <NotFound />} />
-      </Switch>
-    </div>
+    <>
+      <div>
+        <Helmet>
+          <title>Postect</title>
+        </Helmet>
+        <Switch>
+          <Route exact path="/" render={() => <Home />} />
+          <Route render={() => <NotFound />} />
+        </Switch>
+      </div>
+    </>
   );
 }

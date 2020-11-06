@@ -50,6 +50,9 @@ export const GlobalStyle = createGlobalStyle`
     padding: 6px 9px;
     border: none;
   }
+  html {
+    overflow-x: hidden;
+  }
 `;
 
 export default GlobalStyle;

@@ -39,6 +39,7 @@ module.exports = (api) => {
             "@actions": "./src/store/actions",
             "@util": "./src/util",
             "@styles": "./src/styles",
+            "@assets": "./src/assets",
           },
         },
       ],

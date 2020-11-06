@@ -1,5 +1,5 @@
-import { hydrate } from "react-dom";
 import React from "react";
+import { hydrate } from "react-dom";
 import { BrowserRouter } from "react-router-dom";
 import { loadableReady } from "@loadable/component";
 import { Provider } from "react-redux";

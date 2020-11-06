@@ -1,0 +1,12 @@
+export const ILLUST_01 = require("@assets/illust_01.svg");
+export const ILLUST_02 = require("@assets/illust_02.svg");
+export const ILLUST_03 = require("@assets/illust_03.svg");
+export const ILLUST_04 = require("@assets/illust_04.svg");
+export const ILLUST_05 = require("@assets/illust_05.svg");
+export const ILLUST_06 = require("@assets/illust_06.svg");
+export const ILLUST_07 = require("@assets/illust_07.svg");
+export const ILLUST_08 = require("@assets/illust_08.svg");
+export const MAIN_ILLUST_01 = require("@assets/main_illust_01.svg");
+export const MAIN_ILLUST_02 = require("@assets/main_illust_02.png");
+export const MAIN_ILLUST_03 = require("@assets/main_illust_03.svg");
+export const ARROW_IC = require("@assets/arrow.svg");
