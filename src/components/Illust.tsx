@@ -27,7 +27,7 @@ const IllustStyled = styled.img`
     typeof props.left === "number" ? `${props.left}px` : props.left};
   z-index: ${(props: Props) => props.zIndex ?? 0};
   transform: ${(props: Props) =>
-    props.transform ? "translate(50%, 0)" : "none"};
+    `${props.transform}` === "true" ? "translate(50%, 0)" : "none"};
 `;
 
 const Illust: React.FC<Props> = (props: Props) => <IllustStyled {...props} />;
