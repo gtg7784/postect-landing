@@ -53,7 +53,6 @@ export const GlobalStyle = createGlobalStyle`
   html {
     overflow-x: hidden;
     overflow-y: scroll;
-    width: 100vw !important;
   }
   * {
     font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif' !important;
