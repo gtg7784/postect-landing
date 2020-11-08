@@ -51,7 +51,7 @@ const Background: React.FC<Props> = () => (
           height={192}
           top={315}
           right="50%"
-          style={{ transform: "translate(50%, 0)" }}
+          transform
           src={MAIN_ILLUST_01}
         />
         <Illust
@@ -59,7 +59,7 @@ const Background: React.FC<Props> = () => (
           height={202}
           top={1100}
           right="50%"
-          style={{ transform: "translate(50%, 0)" }}
+          transform
           src={MAIN_ILLUST_02}
         />
         <Illust
@@ -67,7 +67,7 @@ const Background: React.FC<Props> = () => (
           height={307}
           top={1762}
           right="50%"
-          style={{ transform: "translate(50%, 0)" }}
+          transform
           src={MAIN_ILLUST_03}
         />
       </Media>
@@ -102,7 +102,7 @@ const Background: React.FC<Props> = () => (
           height={302}
           top={180}
           right="50%"
-          style={{ transform: "translate(50%, 0)" }}
+          transform
           src={MAIN_ILLUST_01}
         />
         <Illust
@@ -110,7 +110,7 @@ const Background: React.FC<Props> = () => (
           height={252}
           top={1303}
           right="50%"
-          style={{ transform: "translate(50%, 0)" }}
+          transform
           src={MAIN_ILLUST_02}
         />
         <Illust
@@ -118,7 +118,7 @@ const Background: React.FC<Props> = () => (
           height={327}
           top={2106}
           right="50%"
-          style={{ transform: "translate(50%, 0)" }}
+          transform
           src={MAIN_ILLUST_03}
         />
       </Media>

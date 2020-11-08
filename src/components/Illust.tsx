@@ -10,7 +10,7 @@ interface Props {
   left?: number | string;
   zIndex?: number;
   src: string;
-  style?: React.CSSProperties;
+  transform?: boolean;
 }
 
 const IllustStyled = styled.img`
@@ -26,6 +26,7 @@ const IllustStyled = styled.img`
   left: ${(props: Props) =>
     typeof props.left === "number" ? `${props.left}px` : props.left};
   z-index: ${(props: Props) => props.zIndex ?? 0};
+  ${(props: Props) => props.transform && "transform: translate(50%, 0);"}
 `;
 
 const Illust: React.FC<Props> = (props: Props) => <IllustStyled {...props} />;
@@ -36,7 +37,7 @@ Illust.defaultProps = {
   top: "auto",
   bottom: "auto",
   zIndex: 0,
-  style: {},
+  transform: false,
 };
 
 export default Illust;
