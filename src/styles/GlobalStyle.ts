@@ -54,7 +54,7 @@ export const GlobalStyle = createGlobalStyle`
     overflow-x: hidden;
   }
   * {
-    font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
+    font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif' !important;
   }
 `;
 
