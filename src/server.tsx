@@ -83,4 +83,4 @@ app.get("*", (req, res) => {
   `);
 });
 
-app.listen(3000, () => console.log("Server started http://localhost:80"));
+app.listen(80, () => console.log("Server started http://localhost:80"));
