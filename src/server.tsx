@@ -72,6 +72,8 @@ app.get("*", (req, res) => {
           ${helmet.title.toString()}
           ${webExtractor.getLinkTags()}
           ${webExtractor.getStyleTags()}
+          <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css' rel='stylesheet' type='text/css'>
+          <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-jp.css' rel='stylesheet' type='text/css'>
         </head>
         <body>
           <div id="root">${html}</div>
@@ -81,4 +83,4 @@ app.get("*", (req, res) => {
   `);
 });
 
-app.listen(80, () => console.log("Server started http://localhost:80"));
+app.listen(3000, () => console.log("Server started http://localhost:80"));

@@ -53,6 +53,9 @@ export const GlobalStyle = createGlobalStyle`
   html {
     overflow-x: hidden;
   }
+  * {
+    font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
+  }
 `;
 
 export default GlobalStyle;
