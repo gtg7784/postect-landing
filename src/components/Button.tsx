@@ -55,7 +55,7 @@ const ButtonTabletStyled = styled.button`
 `;
 
 const ButtonMobileStyled = styled.button`
-  width: 345px;
+  width: calc(100vw - 80px);
   height: 64px;
   border-radius: 14px;
   box-shadow: 0 8px 20px 0 rgba(63, 91, 255, 0.3);
@@ -81,8 +81,8 @@ const AppMedia = createMedia({
   breakpoints: {
     sm: 0,
     md: 520,
-    lg: 768,
-    xl: 1024,
+    lg: 1200,
+    xl: 1920,
   },
 });
 const mediaStyles = AppMedia.createMediaStyle();

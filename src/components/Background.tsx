@@ -21,8 +21,8 @@ const AppMedia = createMedia({
   breakpoints: {
     sm: 0,
     md: 520,
-    lg: 768,
-    xl: 1024,
+    lg: 1200,
+    xl: 1920,
   },
 });
 const mediaStyles = AppMedia.createMediaStyle();
@@ -42,10 +42,10 @@ const Background: React.FC<Props> = () => (
         />
         <Illust width={165} height={122} right={0} src={ILLUST_02} />
         <Illust width={112} height={80} top={760} right={40} src={ILLUST_04} />
-        <Illust width={140} height={228} top={1082} left={0} src={ILLUST_05} />
-        <Illust width={55} height={59} top={1269} right={40} src={ILLUST_06} />
-        <Illust width={40} height={43} top={1656} left={65} src={ILLUST_07} />
-        <Illust width={220} height={103} top={1958} left={0} src={ILLUST_08} />
+        <Illust width={140} height={228} top={1174} left={0} src={ILLUST_05} />
+        <Illust width={55} height={59} top={1361} right={40} src={ILLUST_06} />
+        <Illust width={40} height={43} top={1748} left={65} src={ILLUST_07} />
+        <Illust width={220} height={103} top={2040} left={0} src={ILLUST_08} />
         <Illust
           width={140}
           height={192}
@@ -57,7 +57,7 @@ const Background: React.FC<Props> = () => (
         <Illust
           width={346}
           height={202}
-          top={1008}
+          top={1100}
           right="50%"
           style={{ transform: "translate(50%, 0)" }}
           src={MAIN_ILLUST_02}
@@ -65,7 +65,7 @@ const Background: React.FC<Props> = () => (
         <Illust
           width={300}
           height={307}
-          top={1670}
+          top={1762}
           right="50%"
           style={{ transform: "translate(50%, 0)" }}
           src={MAIN_ILLUST_03}

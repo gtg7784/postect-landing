@@ -9,8 +9,8 @@ const AppMedia = createMedia({
   breakpoints: {
     sm: 0,
     md: 520,
-    lg: 768,
-    xl: 1024,
+    lg: 1200,
+    xl: 1920
   },
 });
 const mediaStyles = AppMedia.createMediaStyle();
