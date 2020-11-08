@@ -107,12 +107,17 @@ const ThirdMobileSection = styled.div`
   max-width: 100vw;
 `;
 
+const MobileSpace = styled.div`
+  width: 100%;
+  height: 92px;
+`;
+
 const AppMedia = createMedia({
   breakpoints: {
     sm: 0,
     md: 520,
-    lg: 768,
-    xl: 1024,
+    lg: 1200,
+    xl: 1920,
   },
 });
 const mediaStyles = AppMedia.createMediaStyle();
@@ -135,6 +140,7 @@ const Home: React.FC<Props> = () => {
               </Title>
               <Text>Postect와 함께 건강한 컴퓨터 사용 문화를 만들어봐요!</Text>
               <Button top={294}>다운하기</Button>
+              <MobileSpace />
             </FirstMobileSection>
             <SecondMobileSection>
               <Title>

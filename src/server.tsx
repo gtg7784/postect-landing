@@ -67,7 +67,8 @@ app.get("*", (req, res) => {
     <!DOCTYPE html>
       <html lang="en">
         <head>
-          <meta name="viewport" content="width=device-width, user-scalable=no">
+          <meta name="viewport" content="width=device-width,initial-scale=1" />
+          <meta charset="UTF-8"/>
           <meta name="google" content="notranslate">
           ${helmet.title.toString()}
           ${webExtractor.getLinkTags()}

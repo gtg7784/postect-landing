@@ -10,7 +10,7 @@ const AppMedia = createMedia({
     sm: 0,
     md: 520,
     lg: 1200,
-    xl: 1920
+    xl: 1920,
   },
 });
 const mediaStyles = AppMedia.createMediaStyle();
